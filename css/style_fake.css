@@ -1,0 +1,101 @@
+@media screen and (max-width: 480px) {
+    div.container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header.titulo {
+        width: 1280px;
+        padding: 2%;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    p.fake {
+        max-width: 100%;
+        font-size: 1.5em;
+        padding: 3%;
+        font-weight: bold;
+        margin: 20% 0% 0% 0%;
+    }
+    footer#rodape {
+        font-size: 0.7em;
+        line-height: 1.5em;
+        padding: 2%;
+        width: auto;
+    }
+    img#icon {
+        width: 250%;
+    }
+    p#text {
+        margin-top: 30%;
+    }
+    p#naveg {
+    display: block;
+    margin-top: 65%;
+    margin-left: 20px;
+    padding: 5px;
+    }
+}
+body {
+    background-color: rgba(115, 146, 155, 0.685);
+    font-family: Helvetica, Arial, 'Times New Roman', sans-serif;
+}
+.container {
+    display: flex;
+}
+.titulo {
+    background: url("../img/background2.jpg") no-repeat;
+    background-size: cover;
+    display: inline-block;
+    text-align: right;
+    width: 1280px;
+    padding: 1%;
+    font-size: 2.8125em;
+    font-weight: bold;
+    color: aliceblue;
+}
+#naveg {
+    font-size: 0.8em;
+    align-self: flex-start;
+    margin-top: 175px;
+    margin-left: 10px;
+    padding: 5px;
+}
+#icon {
+    width: 30px;
+    margin-top: 150px;
+}
+#icon:hover {
+    width: 35px;
+    height: 35px;
+}
+#text {
+    width: 3%;
+}
+.fake {
+    background: url("../img/background2.jpg") no-repeat;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    width: 600px;
+    padding: 3%;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 7% 0% 0% 20%;
+    color: aliceblue;
+
+    justify-content: center;
+}
+#rodape {
+    background: url("../img/background2.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    color: aliceblue;
+    width: 1280px;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    margin: 5% 0%;
+    padding: 1%;
+    align-self: center;
+    justify-content: center;
+}

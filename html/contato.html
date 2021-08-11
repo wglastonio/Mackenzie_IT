@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tecnologia da Informação - Contato</title>
+        <link rel="stylesheet" type="text/css" href="../css/style_contato.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="titulo">
+                <p>Tecnologia da Informação</p>
+            </header>
+        </div>
+
+        <div class="container">
+            <div class="general-info">
+                <p>Formulário de Contato</p>
+            </div>
+
+            <div class="form-input">
+                <form method="post" action="/send_form.php">
+                    <div>
+                        <input id="form-main" type="text" name="fname" size="30" placeholder="Primeiro Nome" required="required">
+                    </div>
+                    <div>
+                        <input id="form-main" type="text" name="lname" size="30" placeholder="Sobrenome" required="required">
+                    </div>
+                    <div>
+                        <input id="form-main" type="text" name="email" size="80" placeholder="Email" required="required">
+                    </div>
+                
+                    <div>
+                        <input id="form-main" type="text" name="cpf" pattern="[0-9]{11}" placeholder="Digite apenas números">
+                    </div>
+                
+                    <div>
+                        <input id="form-main" type="text" name="telefone" pattern="[0-9]{2}-[0-9]{4-5}-[0-9]{4}" placeholder="Digite DDD + Número">
+                    </div>
+                
+                    <div>
+                        <input id="form-main" type="text" name="cidade" size="30" placeholder="Cidade">
+                    </div>
+                
+                    <div>
+                        <select id="form-main" id="estado" name="Estado">
+                            <option value="AC">Acre</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="PA">Pará</option>
+                            <option value="PR">Paraná</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+
+            <div class="links">
+                <p><a href="../fake/enviar.html">Enviar</a></p>
+                <p><a href="../fake/cancelar.html">Cancelar</a></p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <p id="text"><a href="../index.html"><img id="icon" src="../img/home.png" alt="Página inicial" title="Página inicial"></a></p>
+            <p id="naveg">Página Inicial</p>
+        </div>
+        
+        <div class="container">
+            <footer id="rodape">
+                <script src="../js/script.js"></script>
+            </footer>
+        </div>
+    </body>
+</html>

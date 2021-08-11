@@ -1,0 +1,121 @@
+@media screen and (max-width: 480px) {
+    div.container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header.titulo {
+        width: 1280px;
+        padding: 2%;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    div.general-info {
+        margin: 2%;
+        max-width: 100%;
+        font-size: 1.2em;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    div.main-info {
+        max-width: 100%;
+        margin-left: 1%;
+        font-size: 0.9em;
+    }
+    div.links {
+        font-size: 1em;
+        flex-direction: column;
+        align-self: flex-end;
+        font-weight: bold;
+        margin-left: 2%;
+        display: inline;
+    }
+    footer#rodape {
+        font-size: 0.7em;
+        line-height: 1.5em;
+        padding: 2%;
+        width: auto;
+    }
+}
+body {
+    background-color: rgba(115, 146, 155, 0.685);
+    font-family: Helvetica, Arial, 'Times New Roman', sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+a:hover {
+    font-size: 1.1em;
+}
+a:visited {
+    color: rgb(0,0,0);
+}
+.container {
+    display: flex;
+}
+.titulo {
+    background: url("../img/background2.jpg") no-repeat;
+    background-size: cover;
+    display: inline-block;
+    text-align: right;
+    width: 1280px;
+    padding: 2%;
+    font-size: 2.8125em;
+    font-weight: bold;
+    color: aliceblue;
+}
+.general-info {
+    margin: 1%;
+    width: 180px;
+    font-size: 1.5em;
+    line-height: 40px;
+    font-weight: bold;
+}
+.main-info {
+    background: url("../img/background2.jpg") no-repeat;
+    background-size: cover;
+    display: inline-block;
+    text-align: justify;
+    width: 650px;
+    margin: 3% 2% 0% 0%;
+    padding: 3% 2% 0% 2%;
+    font-size: 1em;
+    line-height: 150%;
+    color: rgb(255, 255, 255); 
+}
+.links {
+    font-size: 1.5em;
+    flex-direction: column;
+    align-self: flex-end;
+    font-weight: bold;
+    margin: 3% 2% 0% 2%;
+    display: inline;
+}
+#reference {
+    font-size: 0.8em;
+    float: right;
+    color: rgb(255,255,255);
+    margin-left: 5px;
+}
+#reference1:hover {
+    font-size: 1.2em;
+}
+#reference1 {
+    float: right;
+    color: rgb(255,255,255);
+    margin-left: 5px;
+}
+#rodape {
+    background: url("../img/background2.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    color: aliceblue;
+    width: 1280px;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 5% 0%;
+    padding: 1%;
+    align-self: center;
+    justify-content: center;
+}
